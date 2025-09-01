@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class ATM {
     private static double balance = 7000.00;
 
-    public static final int PIN  = 7073;
+    public static final int PIN  = 1234;
      public static void main(String[] args) {
         Scanner input= new Scanner(System.in);
         System.out.println("Enter your PIN :- ");
@@ -78,4 +78,5 @@ public class ATM {
         }
      }
      }
+
 
